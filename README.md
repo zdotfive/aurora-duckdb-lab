@@ -20,8 +20,8 @@ The write-up with the numbers is here: _link to the article, coming soon_.
 - An IAM role attached to the cluster with the `AuroraAnalytics` feature name, read-only on the bucket.
 - A CodeBuild project that generates TPC-H with DuckDB and writes Parquet to the bucket.
 
-The stack uses `BootstraplessSynthesizer` and has no assets, so you don't need `cdk bootstrap`
-and nothing is left in the account after `cdk destroy`.
+The stack uses `LegacyStackSynthesizer` and has no assets, so it deploys with the credentials of
+your CLI profile: you don't need `cdk bootstrap` and nothing is left in the account after `cdk destroy`.
 
 ```
 cdk/         CDK app (TypeScript)
