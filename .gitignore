@@ -1,0 +1,9 @@
+node_modules/
+cdk.out/
+dist/
+*.js
+!cdk/jest.config.js
+*.d.ts
+__pycache__/
+out/
+*.duckdb

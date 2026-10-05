@@ -1,0 +1,7 @@
+{
+  "app": "npx tsx bin/app.ts",
+  "context": {
+    "instanceClass": "r8gd.xlarge",
+    "sf": 10
+  }
+}
