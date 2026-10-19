@@ -9,7 +9,9 @@ I wanted to know if this is good enough to put an application on top of it: keep
 This repo is the lab I used to measure it. Everything is in one CDK stack and goes away with
 one command.
 
-The write-up with the numbers is here: _link to the article, coming soon_.
+The write-up with the numbers:
+[LinkedIn](https://www.linkedin.com/pulse/aurora-postgresql-now-has-duckdb-inside-i-tested-59-million-arena-uxfif/)
+· [Towards AWS on Medium](https://medium.com/towards-aws/aurora-postgresql-now-has-duckdb-inside-i-tested-it-on-59-million-rows-cdfeeaf5ace6)
 
 ## What gets deployed
 
